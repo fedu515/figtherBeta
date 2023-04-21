@@ -22997,7 +22997,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 	.rd-navbar-floated.rd-navbar-fixed .rd-navbar-brand, .rd-navbar-top-panel.rd-navbar-fixed .rd-navbar-brand {
 		display: block;
 		position: fixed;
-		top: 10px;
+		top: -20px;
 		left: 50%;
 		width: auto;
 	}
@@ -23006,6 +23006,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 .rd-navbar-floated.rd-navbar-dark.rd-navbar-fixed .rd-navbar-panel, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-fixed .rd-navbar-panel {
 	background: #191919;
 	box-shadow: 0 3px 11px 0 #000;
+
 }
 
 .rd-navbar-floated.rd-navbar-dark.rd-navbar-fixed .rd-navbar-cart, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-fixed .rd-navbar-cart {
@@ -24490,7 +24491,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 }
 
 .swiper-container {
-	height: 91vh;
+	height: 0vh;
 	min-height: 480px;
 	margin: 0 auto;
 	position: relative;
@@ -24529,6 +24530,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
+
 }
 
 .swiper-container-android .swiper-slide,
