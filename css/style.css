@@ -26,6 +26,7 @@
 	tr,
 	img {
 		page-break-inside: avoid;
+
 	}
 	p,
 	h2,
@@ -605,10 +606,16 @@ pre code {
 	.container {
 		max-width: 540px;
 	}
+	.header {
+		max-width: 540px;
+	}
 }
 
 @media (min-width: 768px) {
 	.container {
+		max-width: 720px;
+	}
+	.header {
 		max-width: 720px;
 	}
 }
@@ -617,10 +624,16 @@ pre code {
 	.container {
 		max-width: 960px;
 	}
+	.header {
+		max-width: 960px;
+	}
 }
 
 @media (min-width: 1200px) {
 	.container {
+		max-width: 1200px;
+	}
+	.header {
 		max-width: 1200px;
 	}
 }
@@ -24762,7 +24775,8 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 }
 
 .swiper-slide {
-	height: 100%;
+	width: min-content 50%;
+	height: auto;
 	background-position: center;
 }
 
@@ -24774,7 +24788,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 .swiper-slide .swiper-parallax:before {
 	content: '';
 	display: inline-block;
-	height: 50%;
+	height: 100%;
 }
 
 .swiper-slide-caption {
