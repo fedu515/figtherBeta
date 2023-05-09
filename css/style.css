@@ -535,10 +535,6 @@ mark,
 	height: auto;
 }
 
-.figure-video {
-	display: inline-block; 
-}
-
 .figure {
 	display: inline-block;
 }
@@ -901,7 +897,7 @@ pre code {
 	}
 	.col-sm-7 {
 		flex: 0 0 58.33333%;
-		max-width: 58.33333%;
+		max-width: 41.66667%;
 	}
 	.col-sm-8 {
 		flex: 0 0 66.66667%;
@@ -1043,7 +1039,7 @@ pre code {
 	}
 	.col-md-7 {
 		flex: 0 0 58.33333%;
-		max-width: 58.33333%;
+		max-width: 41.66667%;
 	}
 	.col-md-8 {
 		flex: 0 0 66.66667%;
@@ -1185,7 +1181,7 @@ pre code {
 	}
 	.col-lg-7 {
 		flex: 0 0 58.33333%;
-		max-width: 58.33333%;
+		max-width: 41.66667%;
 	}
 	.col-lg-8 {
 		flex: 0 0 66.66667%;
